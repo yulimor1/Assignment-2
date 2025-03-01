@@ -1,0 +1,64 @@
+body{
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+ background-color: bisque;
+ padding: 5% 10%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Abril Fatface", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+h1 span{
+  font-size: 4rem;
+  display: block;
+}
+nav ul{
+  list-style: none;
+}
+a{
+  color: palevioletred;
+}
+a:hover{
+  color:black;
+  text-decoration: none;
+}
+nav ul li{
+  display: inline-block; 
+  padding: 2rem;
+  border: solid 1px palevioletred;
+  /* background-color: black; */
+  width: 100px;
+  text-align: center;
+}
+nav ul li:hover{
+  background-color:black;
+  color: white;
+}
+nav ul li a:hover{
+  color: white;
+}
+#gallery img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+ #gallery figure{
+  /* size: 2rem; */
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+ }
+ .links{
+  display: inline-block; 
+  padding: 3rem;
+  width: 1000px;
+  text-align: center;
+  text-decoration: none;
+ }
